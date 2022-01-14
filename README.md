@@ -92,3 +92,18 @@ cluster.start();
 // do smth
 cluster.stop();
 ```
+
+## Credits
+
+Many thanks to the creators and maintainers of [Testcontainers](https://www.testcontainers.org/).
+You do an awesome job!
+
+Thanks to [@denverx] (https://github.com/denverx/testcontainers-consul) for the original implementation and inspiration for this project.
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Houghton Mifflin Harcourt.
+
+See [LICENSE](LICENSE) file for details.
