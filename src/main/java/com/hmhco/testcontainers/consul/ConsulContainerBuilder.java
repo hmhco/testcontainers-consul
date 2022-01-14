@@ -1,4 +1,4 @@
-package io.github.hmhco.testcontainers.consul;
+package com.hmhco.testcontainers.consul;
 
 import org.testcontainers.containers.Network;
 
