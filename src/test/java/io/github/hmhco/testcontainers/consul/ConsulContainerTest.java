@@ -1,4 +1,4 @@
-package com.hmhco.testcontainers.consul;
+package io.github.hmhco.testcontainers.consul;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -10,9 +10,13 @@ import org.junit.Test;
 import com.ecwid.consul.v1.ConsulClient;
 import com.ecwid.consul.v1.OperationException;
 import com.ecwid.consul.v1.kv.model.PutParams;
-import com.hmhco.testcontainers.consul.ConsulConfiguration.ACL;
-import com.hmhco.testcontainers.consul.ConsulConfiguration.Ports;
-import com.hmhco.testcontainers.consul.ConsulConfiguration.Tokens;
+
+import io.github.hmhco.testcontainers.consul.ConsulConfiguration;
+import io.github.hmhco.testcontainers.consul.ConsulContainer;
+import io.github.hmhco.testcontainers.consul.ConsulContainerBuilder;
+import io.github.hmhco.testcontainers.consul.ConsulConfiguration.ACL;
+import io.github.hmhco.testcontainers.consul.ConsulConfiguration.Ports;
+import io.github.hmhco.testcontainers.consul.ConsulConfiguration.Tokens;
 
 public class ConsulContainerTest {
 

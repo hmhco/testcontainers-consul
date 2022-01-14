@@ -1,4 +1,4 @@
-package com.hmhco.testcontainers.consul;
+package io.github.hmhco.testcontainers.consul;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.hmhco.testcontainers.consul;
+package io.github.hmhco.testcontainers.consul;
 
-import static com.hmhco.testcontainers.consul.ConsulContainerOptions.LOCAL_CONFIG_PARAM_NAME;
+import static io.github.hmhco.testcontainers.consul.ConsulContainerOptions.LOCAL_CONFIG_PARAM_NAME;
 
 import java.time.Duration;
 
@@ -10,7 +10,8 @@ import org.testcontainers.containers.wait.strategy.WaitStrategy;
 import org.testcontainers.utility.MountableFile;
 
 import com.google.gson.Gson;
-import com.hmhco.testcontainers.consul.ConsulContainerOptions.ConsulContainerOption;
+
+import io.github.hmhco.testcontainers.consul.ConsulContainerOptions.ConsulContainerOption;
 
 /**
  * A testcontainer for Hashicorp Consul.

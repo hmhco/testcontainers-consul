@@ -1,4 +1,4 @@
-package com.hmhco.testcontainers.consul;
+package io.github.hmhco.testcontainers.consul;
 
 import java.util.Objects;
 import java.util.stream.Stream;
