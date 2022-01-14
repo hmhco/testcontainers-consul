@@ -1,4 +1,4 @@
-package io.github.hmhco.testcontainers.consul;
+package com.hmhco.testcontainers.consul;
 
 /**
  * Allows one to build a consul agent command with support for dev and ui and join options

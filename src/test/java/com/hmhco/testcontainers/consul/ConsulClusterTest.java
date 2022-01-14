@@ -1,4 +1,4 @@
-package io.github.hmhco.testcontainers.consul;
+package com.hmhco.testcontainers.consul;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -16,11 +16,6 @@ import com.ecwid.consul.v1.ConsulClient;
 import com.ecwid.consul.v1.OperationException;
 import com.ecwid.consul.v1.catalog.CatalogServiceRequest;
 import com.ecwid.consul.v1.catalog.model.CatalogService;
-
-import io.github.hmhco.testcontainers.consul.ConsulCluster;
-import io.github.hmhco.testcontainers.consul.ConsulConfiguration;
-import io.github.hmhco.testcontainers.consul.ConsulContainer;
-import io.github.hmhco.testcontainers.consul.ConsulContainerBuilder;
 
 public class ConsulClusterTest {
 

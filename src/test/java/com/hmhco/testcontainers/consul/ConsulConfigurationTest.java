@@ -1,4 +1,4 @@
-package io.github.hmhco.testcontainers.consul;
+package com.hmhco.testcontainers.consul;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,9 +9,6 @@ import java.util.UUID;
 import org.junit.Test;
 
 import com.google.gson.Gson;
-
-import io.github.hmhco.testcontainers.consul.ConsulConfiguration;
-import io.github.hmhco.testcontainers.consul.ConsulContainerBuilder;
 
 public class ConsulConfigurationTest {
 
