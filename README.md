@@ -98,7 +98,10 @@ cluster.stop();
 Many thanks to the creators and maintainers of [Testcontainers](https://www.testcontainers.org/).
 You do an awesome job!
 
-Thanks to [@denverx] (https://github.com/denverx/testcontainers-consul) for the original implementation and inspiration for this project.
+This repository has been forked from https://github.com/denverx/testcontainers-consul. 
+
+Many thanks to [@denverx](https://github.com/denverx) for the contribution and inspiration for this project.
+
 
 ## License
 
