@@ -26,7 +26,9 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:hmhco/testcontainers-consul.git</developerConnection>
-		<tag>testcontainers-consul-0.0.1</tag>
+		<tag>HEAD</tag>
+		<connection>scm:git:git@github.com:hmhco/testcontainers-consul.git</connection>
+		<url>https://github.com/hmhco/testcontainers-consul</url>
 	</scm>
 
 	<issueManagement>
