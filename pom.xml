@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hmhco</groupId>
 	<artifactId>testcontainers-consul</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>testcontainers-consul</name>
 	<description>A testcontainer for Hashicorp consul.</description>
 	<url>https://github.com/hmhco/testcontainers-consul</url>
