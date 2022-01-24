@@ -46,7 +46,7 @@
 		<java.version>17</java.version>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<testcontainers.version>1.16.2</testcontainers.version>
+		<testcontainers.version>1.16.3</testcontainers.version>
 		<consul.api.version>1.4.5</consul.api.version>
 	</properties>
 	
@@ -134,6 +134,10 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+                                <configuration>
+                                  <keyname>${gpg.keyname}</keyname>
+                                  <passphraseServerId>${gpg.keyname}</passphraseServerId>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
